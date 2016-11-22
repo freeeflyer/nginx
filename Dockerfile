@@ -15,3 +15,4 @@ ADD nginx_supervisord.ini /etc/supervisor.d/nginx.ini
 EXPOSE 80 443
 
 CMD ["supervisord", "-n", "-c", "/etc/supervisord.conf" ]
+#CMD ["nginx", "-g", "daemon off;" ]
