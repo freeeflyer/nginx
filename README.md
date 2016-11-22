@@ -25,6 +25,7 @@ Nothing more than a basic nginx with fancyindexing module.
       - /where/lies/your/config-files/nginx.conf:/etc/nginx/nginx.conf:ro
       - /where/lies/your/config-files/default.conf:/etc/nginx/conf.d/default.conf:ro
       - /etc/apache2/xmisspasswd:/etc/nginx/xmisspasswd:ro
+      - ...
     ports:
       - "80:80"
 ```
