@@ -1,8 +1,8 @@
 # nginx
 
-This is an nginx image derived from alpine:edge distribution.
+This is an nginx image derived from alpine distribution.
 
-Edge is because previous versions of Alpine linux does not support fancyindexing which is why I made this image.
+NEW : Alpine 3.5 instead of Alpine edge
 
 Nothing more than a basic nginx with fancyindexing module.
 

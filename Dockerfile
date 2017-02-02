@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.5
 
 MAINTAINER Nicolas Zagulajew (freeeflyer) <docker.com@xoop.org>
 
