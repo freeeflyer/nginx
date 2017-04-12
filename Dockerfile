@@ -8,6 +8,7 @@ RUN apk add --update nginx nginx-mod-http-fancyindex supervisor \
  && ln -sf /dev/stdout /var/log/nginx/access.log \
  && ln -sf /dev/stderr /var/log/nginx/error.log \
  && mkdir -p /var/nginx \
+ && mkdir -p /run/nginx \
  && mkdir -p /var/supervisor.d
 
 ADD nginx_supervisord.ini /etc/supervisor.d/nginx.ini
